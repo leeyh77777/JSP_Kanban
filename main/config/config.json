@@ -1,0 +1,27 @@
+{ 
+	"Environment" : "development",
+	"PageTitle" : "사이트 기본제목",
+	"DB":  { 
+		"Driver": "com.mysql.cj.jdbc.Driver",
+		"Url" : "jdbc:mysql://localhost:3306/kanban",
+		"user" : "root", 
+		"password" : "aA!12345"
+	},
+	"LogDir" : "D:\\logs",
+	"css": {
+	},
+	"js" : {
+		"/kanban" : "kanban"
+	},
+	"AddonHeader" : {
+		"*" : "common"
+	},
+	"AddonFooter" : {
+		"*" : "common"
+	},
+	"NaverLogin" : {
+		"clientId" : "LERtHL4haFNd1rBl48DQ",
+		"secret" : "QH4bzPQ6Ka",
+		"callbackURL" : "http://localhost:8080/kanban/member/naver_login"
+	}
+ }
